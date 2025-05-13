@@ -8,7 +8,7 @@ class Solution:
                 new_string += 'ab'
             else:
                 new_string += chr(ord(value)+1)
-        # print(new_string)
+        
         return self.lengthAfterTransformations(new_string,t-1) 
 
 sol = Solution()
